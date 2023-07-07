@@ -1,0 +1,13 @@
+#thumbnail-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#thumbnail-list li img {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#thumbnail-list li img.active {
+    filter: grayscale(0%);
+}
